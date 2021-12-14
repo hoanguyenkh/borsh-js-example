@@ -1,0 +1,46 @@
+{
+  "name": "borsh-js-example",
+  "version": "1.0.0",
+  "description": "Borsh js example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoank92/borsh-js-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoank92/borsh-js-example/issues"
+  },
+  "homepage": "https://github.com/hoank92/borsh-js-example#readme",
+  "dependencies": {
+    "@types/text-encoding": "^0.0.36",
+    "bn.js": "^5.1.3",
+    "borsh": "^0.7.0",
+    "yaml": "^1.10.2",
+    "@solana/web3.js": "^1.31.0"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/bn.js": "^5.1.0",
+    "@types/eslint": "^7.2.4",
+    "@types/eslint-plugin-prettier": "^3.1.0",
+    "@types/prettier": "^2.1.5",
+    "@types/yaml": "^1.9.7",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.1.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.5"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
